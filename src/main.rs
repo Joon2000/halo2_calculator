@@ -1,3 +1,6 @@
+mod calculator;
+
 fn main() {
-    println!("Hello, world!");
+    let result = calculator::run();
+    println!("Circuit result: {:?}", result);
 }
